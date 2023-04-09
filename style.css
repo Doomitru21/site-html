@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +6,140 @@
 }
 body{
     background-color:#fff ;
+    min-height: 120vh;
     background-image: url(https://wallpaperaccess.com/full/1567665.png);
 }
+.Dashboard {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30;
+    position: relative;
+    bottom: 90;
+    left: 30;
+}
+.frame {
+    width: 1505px;
+    height: 965px;
+    background: rgb(133,132,138);
+    background: linear-gradient(104deg, rgba(133,132,138,0.4939172749391727) 0%, rgba(6,194,210,1) 100%);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10%;
+    border: solid 1px black;
+}
+.butoane {
+    background-color: rgba(87, 176, 184, 0.562);
+    width: 140px;
+    height: 30px;
+    float: left;
+    border: 1px solid #0000007e;
+    border-radius:100px ;
+    margin: 30;
+    position: relative;
+    left: 24%;
+    bottom: 50;
+}
+.disk {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgdisk {
+    position: relative;
+    flex-basis: 60%;
+    top: 15%;
+    right: 50%;
+}
+.imgdisk .imgd {
+    width: 10%;
+}
+.prog {
+    position: relative;
+    left: 13%;
+    top: 1%;
+    width: 170px;
+    height: 7px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(175, 175, 175, 0.384)
+}
+.fill {
+    width: 38%;
+    height: 7px;
+    background: rgb(82, 200, 255);
+
+}
+.text {
+    position: relative;
+    left: 13%;
+    top: -12;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline 1px;
+    font-weight: bold;
+    
+}
+.tstat {
+    position: relative;
+    left: 12.7%;
+    padding: 5;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.text2 {
+    position: relative;
+    left: 39.6%;
+    bottom: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline 1px;
+    font-weight: bold;
+    
+}
+.tstat2 {
+    position: relative;
+    left: 39.4%;
+    bottom: 285;
+    padding: 5;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.disk1{
+    position: relative;
+    left: 25%;
+    bottom: 28.6%;
+}
+.imgdisk2 {
+    flex-basis: 60%;
+    bottom: 15%;
+    left: 30%;
+    position: relative;
+}
+.imgdisk2 .imgd2 {
+    width: 10%;
+}
+.prog2 {
+    position: relative;
+    left: 39.7%;
+    bottom: 28.7%;
+    width: 170px;
+    height: 7px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(175, 175, 175, 0.384)
+}
+.fill2 {
+    width: 78%;
+    height: 7px;
+    background: rgb(82, 200, 255);
+
+}
 footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: sticky;
+    top: 100%;
     background: #111;
     height: auto;
     font-family: "Open Sans";
@@ -21,16 +149,6 @@ footer{
 .footer-bottom{
     background: #000;
     width: 100vw;
-    padding: 20px 0;
+    padding: 8px 0;
     text-align: center;
-}
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 5px;
-    text-transform: capitalize;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    color: aqua;
-    font-weight: 200;
 }
